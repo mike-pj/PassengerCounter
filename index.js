@@ -14,7 +14,7 @@ function increment() {
 function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr  
-    console.log(count)
+    
 }
 
 let welcomeEl = document.getElementById("welcome-el")
