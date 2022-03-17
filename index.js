@@ -1,10 +1,5 @@
 // document.getElementById("count-el").innerText = 5
 
-let name = "mikey"
-let greeting = "Hi, my name is "
-let myGreeting = greeting + name 
-console.log(myGreeting)
-
 let count = 0
 
 let countEl = document.getElementById("count-el")
@@ -19,4 +14,11 @@ function save() {
     console.log(count)
 }
 
+let welcomeEl = document.getElementById("welcome-el")
 
+let name = "mickey"
+let greeting = "Welcome back "
+
+welcomeEl.innerText = greeting + name
+
+welcomeEl.innerText += "👋"
